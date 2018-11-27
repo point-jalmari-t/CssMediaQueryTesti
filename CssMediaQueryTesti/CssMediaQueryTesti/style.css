@@ -4,8 +4,31 @@ body {
   font-family: Verdana;
 }
 
+.box1 {
+	background-color:grey;
+	width: 300px;
+	height: 300px;
+	float: left;
+}
+
+.box2 {
+	background-color: lightgrey;
+	width: 300px;
+	height: 300px;
+	float: left;
+}
+
+.box3 {
+	background-color: slategrey;
+	width: 300px;
+	height: 300px;
+	float: left;
+}
+
 @media screen and (min-width: 600px) {
 	body {
 		background-color: black;
 	}
+	.box2 {
+		display: none;
 }
